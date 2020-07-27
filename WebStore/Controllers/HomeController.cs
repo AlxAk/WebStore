@@ -10,11 +10,11 @@ namespace WebStore.Controllers
     {
         public IActionResult Index()
         {
-            return Content("Controller-Home, Action-Index");
+            return View();
         }
         public IActionResult Some()
         {
-            return Content("Controller-Home, Action-Some");
+            return View();
         }
     }
 }
