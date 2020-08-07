@@ -13,10 +13,14 @@
     @foreach (var emploee in Model)
     {
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>@emploee.Id</td>
+            <td>@emploee.FirstName</td>
+            <td>@emploee.Patronymic</td>
+            <td>@emploee.SurName</td>
+            <td>@emploee.Age</td>
+            <td>
+                <a href="~/Home/Employee/@emploee.Id">Карточка</a>
+            </td>
         </tr>
     }
 </table>
